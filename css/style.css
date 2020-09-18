@@ -13,7 +13,7 @@ body{
 /* header */
 header {
     height: 101.43px;
-    width: 100vw;
+    width: 100%;
     position: fixed;
     top: 0;
     left: 0;
@@ -123,6 +123,7 @@ footer {
     width: 80%;
     height: 100%;
     margin: 0 auto;
+    padding: 0 32px 0 32px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -130,7 +131,6 @@ footer {
 
 ul.footer-left {
     display: flex;
-    padding: 0 32px 0 32px;
     list-style: none;
     font-size: 11px;
     color: rgba(61,61,61,.8);
@@ -138,4 +138,11 @@ ul.footer-left {
 
 ul.footer-left li {
     margin-right: 10px;
+    cursor: pointer;
+}
+
+.footer-right i{
+    color: #4bb5f8;
+    padding-right: 5px;
+    font-size: 15px;
 }

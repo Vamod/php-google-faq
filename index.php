@@ -28,6 +28,7 @@ $faqs = [
      <head>
          <meta charset="utf-8">
          <title>Google-faq</title>
+         <script src="https://kit.fontawesome.com/1326297381.js" crossorigin="anonymous"></script>
          <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
          <link rel="stylesheet" href="css/style.css">
      </head>
@@ -77,6 +78,7 @@ $faqs = [
                      <li>Termini</li>
                  </ul>
                  <div class="footer-right">
+                     <i class="fas fa-comment-alt"></i>
                      <select name="" id="">
                          <option value="">Italiano</option>
                          <option value="">English</option>

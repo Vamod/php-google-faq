@@ -145,4 +145,6 @@ ul.footer-left li {
     color: #4bb5f8;
     padding-right: 5px;
     font-size: 15px;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
 }
